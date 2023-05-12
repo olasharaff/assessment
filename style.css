@@ -1,0 +1,110 @@
+/* BODY BACKGROUND AND EDGE */
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html {
+    background-image: -webkit-linear-gradient(180deg, #3ac89e 50%, #A683E3 50%);
+
+
+}
+
+.content {
+    background: white;
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 2%;
+
+
+}
+
+/* INTRODUCTORY SECTION */
+
+.image {
+    width: 130px;
+    border-radius: 45%;
+    margin: 6px 30px 0 20px !important ;
+    
+
+}
+
+
+
+
+.content p {
+    padding: 3px auto;
+    margin: 5px auto;
+
+
+}
+
+/* EDUCATION AND SKILL SECTION */
+.box {
+    display: inline-block;
+    width: 40%;
+    height: 90%;
+
+    margin-top: 10px;
+    margin-left: 65px;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+.box li {
+    padding: 5px 5px;
+    margin: 10px auto;
+}
+
+/* WORK EXPERIENCE */
+.grid-containar {
+    grid-template-columns: auto auto;
+    display: grid;
+
+    margin: 5px 55px;
+    padding: 0 10px 0 10px;
+
+
+}
+
+.grid-containar h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2px auto;
+    margin: 5px auto;
+
+}
+
+footer {
+    margin: 35px auto;
+    padding: 20px auto;
+
+}
+
+/* Horizontal line */
+
+header hr {
+    height: 4px;
+    border: none;
+    background-image: linear-gradient(to right, #3ac89e 50%,
+            #A683E3 50%);
+
+}
+
+main hr {
+    height: 4px;
+    border: none;
+    background-image: linear-gradient(to right,
+            #A683E3 50%, #3ac89e 50%);
+}
+
+footer hr {
+    height: 4px;
+    border: none;
+    background-image: linear-gradient(to right,
+            #3ac89e 50%, #A683E3 50%);
+}
